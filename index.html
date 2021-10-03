@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Meeting Notes</title>
+        <meta name="author" content="Antonia Yang">
+        <link rel="icon" href="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=49ed3252c0b2ffb49cf8b508892e452d",type="image/jpg">
+        <style>
+            .agenda {
+              border: outset blue;
+              background-color: powderblue;
+              text-align: center;
+            }
+            .attend {
+              border: outset blue;
+              background-color: aquamarine;
+              text-align: center;
+            }
+        </style> 
+    </head>
+
+    <body>
+        <header>Antonia's Fancy Meeting 10/1</header>
+        <main>Don't know what to say.</main>
+        <nav style="color: tomato;">
+            <h2>Brainstorming</h2>
+        </nav>
+        <h1>Antonia Yang's Personal Meeting 10/1</h1>
+        <h4>Oct1,2021</h4>
+
+        <div class="attend">
+            <h3 style="color: green; background-color: aquamarine">Attendants:</h3>
+            <ul>
+                <li>Paul</li>
+                <li>Jack</li>
+                <li>Doris</li>
+                <li><details><summary>Flynn</summary>Special guest</details></li>
+            </ul>
+        </div>
+        <hr>
+        <div class="agenda">
+            <h3>Today's Agenda</h3>
+            <ul>
+                <li><a href="#features">Key Features that need to be included</a></li>
+                <li><a href="#prob">Potential Problems</a></li>
+                <li><a href="#other">Other Things</a></li>
+            </ul>
+        </div>
+        <hr>
+        <div id="features">
+            <h3 style="background-color:powderblue;">Key Features</h3>
+            <img src="sample3.JPG" width=500 alt="test">
+            <ul>
+                <li>
+                    <p style="color: rgb(4, 0, 255);">Allow users see <b class="term">nearby</b> people who owns pets and build up connections with others.</p>
+                </li>
+                <li>
+                    <p style="color: rgb(4, 0, 255);">Allow users <strong> pets food or toys</strong> on the app.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div id="prob">
+            <h3 style="background-color:red;">Potential Problems</h3>
+            <ul>
+                <li>
+                    <p>Users' <em>privacy</em>. This concern is reminded by Doris. <i>What about people don't want to be interrupted by others?</i></p>
+                </li>
+                <li>
+                    <a href="https://cloudian.com/guides/data-protection/data-protection-and-privacy-7-ways-to-protect-user-data/#:~:text=Users%20control%20privacy%2C%20companies%20ensure,ensure%20that%20it%20remains%20private.">Related info</a>
+                </li>
+                <li>
+                    <p>
+                        Although this is our main feature,<br>
+                        we still need to have this additional feature to accommodate more users.
+                    </p>
+                </li>
+            </ul>
+            <audio controls="controls" src="sample.mp3">Listen to this.</audio>
+
+        </div>
+           
+        <div id="other">
+            <h3 style="background-color: purple;">Other Things</h3>
+            <details>
+                <summary>Ohh</summary>
+                I am sleepy rn.
+            </details>
+
+            <video controls width="500">
+                <source src="sample2.mp4"
+                        type="video/mp4">
+                Something meaningless...
+            </video>
+        </div>
+        <hr>
+        <h4 style="color: blue;">Comments</h4>
+        <form action="action_page.php" method="get" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+              <label for="comment">Enter your comments and suggestions: </label>
+              <input type="text" name="comment" id="comment" required>
+            </div>
+            <select name="Age" id="age-select">
+                <option value="">--Please choose an option--</option>
+                <option value="under 10">under 10</option>
+                <option value="10-20">10-20</option>
+                <option value="above 20">above 20</option>
+            </select><br>
+            <label for="comment">Leave your comment here:</label>
+            <textarea id="comments" name="comments"
+            rows="5" cols="33">
+            Enter your comments...
+            </textarea>
+            <div class="form-example">
+              <input type="submit" value="Submit!">
+            </div>
+          </form>
+        <hr>
+
+        <label for="ice-cream-choice">Guess my favorite flavor:</label>
+        <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+        <datalist id="ice-cream-flavors">
+                <option value="Chocolate">
+            <option value="Coconut">
+            <option value="Mint">
+            <option value="Strawberry">
+            <option value="Vanilla">
+        </datalist><br>
+        <button type="button">
+            Click here to have lunch with Antonia!
+        </button>
+        <footer>I am a footer!</footer>
+    </body>
+</html>
+
+

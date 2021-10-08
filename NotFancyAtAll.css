@@ -1,0 +1,156 @@
+@media (max-width: 12450px) {
+}
+
+@font-face {
+    font-family: "Ephesis";
+    src: url("https://fonts.google.com/specimen/Ephesis");
+}
+
+*{
+    display: auto;
+}
+
+/* This is the color for the whole webpage*/
+body{
+    background-color: rgb(184, 231, 242);
+    display: inline-block;
+}
+
+h1{
+    font-family: "Ephesis", serif;
+    color: #272f5c;
+    text-align: center;
+}
+
+header{
+    color: hsl(231, 40%, 26%);
+}
+
+main{
+    color:black;
+    display: none;
+}
+
+.agenda{
+    font-family: "Ephesis", serif;
+    font-size: 1em;
+    width: 700px;
+    border: 5pc;
+    padding: 25px;
+    position: sticky;
+
+}
+
+.attend{
+    font-family: "Ephesis", serif;
+    font-size: 2ex;
+    width: 7.291in;
+    border: 5pc;
+    padding: 25px;
+    position: static;
+}
+
+li{
+    font-size: 1rem;
+}
+
+#features{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 25px;
+    border: 2px solid;
+    border-color: blue;
+    width: 500px;
+    max-width: 500px;
+}
+
+#prob{
+    margin: auto;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    border-bottom: 3px red;
+    border-top: 3px  red;
+    border-left: 3px red;
+    border-right: 3px red;
+    border-style: double;
+    height: 300px;
+    max-height: 800px;
+}
+
+#other{
+    margin: auto;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    border-width: 5px;
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: purple;
+    min-width: 300px;
+}
+
+h2, main{
+    text-decoration:  purple wavy underline
+}
+
+button{
+    background-color: powderblue;
+    transition: background-color .5s;
+}
+
+button:hover {
+    background-color: gold;
+}
+
+.form-example:active{
+    color: tomato;
+}
+
+.flex-ex{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.flex-item{
+    color: blueviolet;
+}
+
+.grid-ex{
+    display: grid;
+    grid-template-columns: repeat(3, 50px [col-start]);
+
+}
+
+.grid-item{
+    grid-area: span;
+    justify-self: stretch;
+}
+
+
+
+.grid-item item1{
+    border: #272f5c;
+}
+
+.flex-item > flex1{
+    border: #272f5c;
+}
+
+h2 + h3{
+    color:#272f5c
+}
+
+ul.list{
+    color: black;
+}
+
+img ~ ul li{
+    color: black;
+}
